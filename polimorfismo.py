@@ -33,6 +33,5 @@ def vehicularDisplacement(vehicle):
 
 myVehicle = Truck() #creo un objeto de tipo camion 
 
-vehicularDisplacement(myVehicle)     #utilizo el metodo desplazamientoVehicular y le paso por parametro el objeto de tipo camion 
-
+vehicularDisplacement(myVehicle)     
 

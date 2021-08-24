@@ -29,8 +29,8 @@ class Van(Vehicle):         #no tengo ningun constructor pero hedera de vehiculo
             return "La furgoneta no esta cargada"
 
 
-class Motorcycle(Vehicle):        # instancia u objeto de tipo moto, perteneciente a la clase vehiculo 
-    speed_up_suddenly_state = False            # esta clase hereda de vehiculo
+class Motorcycle(Vehicle):                    # esta clase hereda de vehiculo
+    speed_up_suddenly_state = False            
     
     def speed_up_suddenly(self):
         self.speed_up_suddenly_state = True
@@ -69,5 +69,4 @@ class Electric_bicycle(Electric_vehicle,Vehicle):
 
 my_bicycle = Electric_bicycle("Orbea", "Hjd")
 
-# super() va a llamar al metodo de la clase padre, ejecuta el metodo _init__ de la clase padre
-
+# super() va a llamar al metodo de la clase padre

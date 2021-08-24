@@ -1,2 +1,1 @@
-# poo
-Exercise for practice 
+# Object-oriented programming
